@@ -1,7 +1,7 @@
 const prompt = require("prompt-sync")();
 
 
-let tempCelsius = parseFloat(prompt("Entrez la température en Celsius :"));
+let tempCelsius = Number(prompt("Entrez la température en Celsius :"));
 
 let tempKelvin = tempCelsius + 273.15;
 
