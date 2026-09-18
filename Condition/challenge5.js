@@ -1,7 +1,19 @@
 const prompt = require("prompt-sync")();
 
 const yeare = Number(prompt("Write yeare "));
-const choise = Number(prompt("choise wish do you want"))
+const choise = Number(prompt("choise wish do you want"));
+
+switch(choise){
+    case 1:
+        let mounths = yeare * 12;
+        console.log("Mounth" + ' ' + mounths);
+    case 2:
+        let days = yeare * 366;
+        console.log("Days" + ' ' + days);
+    
+
+
+}
 
 // let mounths = yeare * 12;
 // let days = yeare * 366;
