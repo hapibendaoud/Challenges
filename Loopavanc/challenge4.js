@@ -1,10 +1,9 @@
 const prompt = require("prompt-sync")();
 
 let num = Number(prompt("Enter a Number: "));
+let somme = 0;
 
-let x = "*";
 for(let i = 1; i <= num; i++){
-    console.log(x);
-    x += "**";
+    somme += i;
 }
-
+console.log(`La somme from 1 to ${num}: ${somme}`)
